@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: "Monterrat";
+
+}
+body{
+    background-color: #E4DCCF;  
+}
+p{
+    font-family: "Jost";
+}
+.heading{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 1rem;
+}
+.btn{
+    width: 15%;
+    background-color: #002B5B;
+}
+.bi{
+    padding-right: 5%;
+}
+.btn:hover{
+    background-color: #EA5455;
+}
+#title{
+    background-color: #E4DCCF;
+}
+.navbar{
+    padding-bottom: 3 rem;
+}
+.navbar-brand{
+    font-family: "Lobster Two";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #EA5455;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color:  #EA5455;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+#navbarTogglerDemo01{
+    text-align: right;
+}
+#work{
+    text-align: center;
+   background-color: #002B5B;
+   color: #fff;
+   padding: 3% 0%;
+}
+.work-icon{
+    color: #F9F5EB;
+    padding-bottom: 1%;
+}
+.work-title{
+padding-bottom: 2%;
+}
+.r1{
+    padding-top: 2%;
+}
+#location{
+    text-align: center;
+    background-color: #E4DCCF;
+    padding: 3% 10%;
+}
+.addtitle{
+    padding-top: 0%;
+}
+.address-p{
+    font-size: 1.5rem;
+}
+#contact{
+    background-color: #002B5B;
+    color: #fff;
+    text-align: center;
+    padding: 2% 7%;
+    font-size: 1.5rem;
+}
+footer{
+    text-align: center;
+    background-color: #E4DCCF;
+}
