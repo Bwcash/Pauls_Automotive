@@ -126,10 +126,10 @@ color: #000;
    height: 242px;
 }
 .row{
-    padding:0% 3%
+    padding:0% 
 }
 .r1{
-    padding-top: 2%;
+    padding:0% 3%;
 }
 #location{
     text-align: left;
@@ -157,7 +157,7 @@ text-align: center;
 font-size: 3.5rem;
 }
 .whygroup{
-    padding-left: 7%;
+    padding-left: 6%;
     margin-top: 20%;
     text-align: center;
     padding-bottom: 8%;
