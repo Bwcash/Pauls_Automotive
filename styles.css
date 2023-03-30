@@ -12,28 +12,51 @@ p{
     text-align: center;
     padding-bottom: 3%;
     font-size: 1rem;
+   
+    
 }
 .btn{
-    width: 15%;
-    background-color: #002B5B;
+    width: 30%;
+    background-color: #EA5455;
+    text-align: center;
+    margin-right: 5%;
+    border-color: #fff;
 }
 .bi{
     padding-right: 5%;
 }
 .btn:hover{
-    background-color: #EA5455;
+    background-color: #000;
+    border-color: #fff;
 }
 #title{
     background-color: #E4DCCF;
+    background-image: url(paulsAutoLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    height:50%;
+    width: 100%;
+    margin-top: -5%;
 }
 .navbar{
-    padding-bottom: 3 rem;
+    padding: 20% 0% 0% 0%;
+   
+}
+.logo{
+  width: 20%;
+   
+
 }
 .navbar-brand{
+    color:  #EA5455;
+   font-size: 1.9rem;
     font-family: "Lobster Two";
-    font-size: 2.5rem;
     font-weight: bold;
-    color: #EA5455;
+    width: 50%;
+    margin-right: 2%;
+    padding-left: 6px;
+   
 }
 .nav-item{
     padding: 0 18px;
@@ -42,31 +65,79 @@ p{
     color:  #EA5455;
     font-size: 1.2rem;
     font-family: "Montserrat";
-    font-weight: 100;
+    font-weight: 400;
 }
 #navbarTogglerDemo01{
     text-align: right;
 }
+.heading-text{
+    padding: 3% 0% 8% 0%;
+    
+    text-align: center;
+    color: #000;
+}
+hr{
+    padding: 0% ;
+    border: 2px solid #000;
+    opacity: 0.5;
+    margin: 0% 0% 1% 0%;;
+}
+#top-section{
+    
+    padding-bottom: 1%;
+    background-color: #E4DCCF;
+}
+.card-header{
+    background-color: #E4DCCF;
+}
+.card-title{
+font-size: 1.8rem;
+}
+.card-text{
+font-size: 1.2rem;
+}
+.topbody{
+background-color: #E4DCCF;
+}
+.card-group{
+margin-top: 15%;
+text-align: left;
+}
+
 #work{
     text-align: center;
-   background-color: #002B5B;
+   background-color: #282116;
    color: #fff;
-   padding: 3% 0%;
+   padding: 2% 0%;
 }
-.work-icon{
-    color: #F9F5EB;
-    padding-bottom: 1%;
+.card-deck{
+    display: flex;
+    padding: 2%;
+    
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.work-title{
-padding-bottom: 2%;
+.workcard{
+margin: 1% 2%;
+text-align: left;
+color: #000;
+}
+.card-img-top{
+   height: 242px;
+}
+.row{
+    padding:0% 3%
 }
 .r1{
     padding-top: 2%;
 }
 #location{
-    text-align: center;
+    text-align: left;
     background-color: #E4DCCF;
     padding: 3% 10%;
+}
+.location-title-text{
+text-align: center;
 }
 .addtitle{
     padding-top: 0%;
@@ -74,8 +145,26 @@ padding-bottom: 2%;
 .address-p{
     font-size: 1.5rem;
 }
+.vl{
+    border-left:2px solid black ;
+    opacity: 1;
+    height: 100%;
+}
+.whytitle{
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 50%;
+font-size: 3.5rem;
+}
+.whygroup{
+    padding-left: 7%;
+    margin-top: 20%;
+    text-align: center;
+    padding-bottom: 8%;
+   
+}
 #contact{
-    background-color: #002B5B;
+    background-color: #282116;
     color: #fff;
     text-align: center;
     padding: 2% 7%;

@@ -3,13 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>Paul's Automative</title>
-    <i class="fa-solid fa-car-wrench"></i>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- goole fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Lobster+Two&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Lobster+Two&family=Montserrat&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -27,7 +30,7 @@
     <section id="title">
         <div  class="container-fluid cftitle">
             <nav class="navbar  navbar-expand-lg navbar-dark ">
-                <a class="navbar-brand" href="">Paul's Automative</a>
+                <a class="navbar-brand" href="">Paul's Automative of Mountain View</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
               aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -47,61 +50,119 @@
              </div>
           </nav> 
         </div>
-            <div class="heading">
-                <H1>Paul's Automotive of Mountain View</H1>
-                <h2>Your local automotive workshop</h2>
+    </section>
+    <Hr></Hr>
+    <section id="top-section">
+        <div class="row">
+            <div class="heading col-lg-6 col-md-6">
+                <H1 class="heading-text">If your car is sick, bring it to Paul to fix!</H1>
                 <a class="btn btn-primary btn-lg" href="tel:870-269-3933" role="button"><i class="bi bi-telephone"></i>Call Us Today</a>
+                <div class="card-group">
+                    <div class="card border-dark mb-3 col-lg-4" >
+                        <div class="card-header"><i class="fa-solid fa-border fa-2x fa-screwdriver-wrench" style="--fa-border-radius: 100%; --fa-border-color:#000;"></i></div>
+                        <div class="card-body topbody text-dark">
+                            <h5 class="card-title">All Makes and Models</h5>
+                            <p class="card-text">We have experince working on many makes and models.</p>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3 col-lg-4" >
+                        <div class="card-header"><i class="fa-solid fa-clipboard-question fa-2x fa-border"style="--fa-border-radius: 100%; --fa-border-color:#000;"></i></div>
+                        <div class="card-body topbody text-dark">
+                            <h5 class="card-title">Quality Support</h5>
+                            <p class="card-text">We work with you to answer any questions you may have and get you back on the road quickly.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+            <img class="col-lg-6 col-md-6" src="mechanics-424130_640.jpg" alt=" motor for car image">
+        </div>
     </section>
-
+    
     <section id="work">
-        <H2 class="work-title">What We Do</H2>
-        <div class="row"> 
-            <div class="col-lg-4">
-                <i class="work-icon fa-solid fa-gear fa-5x"></i>
-              <h3 class="feature-title">Brakes</h3>
-              <p>We can replace your brakes.</p>
+        <H1 class="work-title">What We Do</H1>
+        <div class="card-deck ">
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="auto-repair-shop-1954643_640.jpg" alt="car brakes image cap">
+              <div class="card-body">
+                <h5 class="card-title">Brakes</h5>
+                <p class="card-text">We can replace your brakes.</p>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <i class="work-icon fa-solid fa-filter fa-5x"></i>
-              <h3 class="feature-title">Engines and Oil Changes</h3>
-              <p>We can change your oil and work on your engine.</p>
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="oil-change-6828224_640.jpg" alt="Car A/C unit image cap">
+              <div class="card-body">
+                <h5 class="card-title">Engines and Oil Changes</h5>
+                <p class="card-text">We can change your oil and work on your engine.</p>
+              </div>
             </div>
-            <div class="col-lg-4">
-                <i class="work-icon fa-sharp fa-solid fa-car-battery fa-5x"></i>
-              <h3 class="feature-title">Battery and Alternator</h3>
-              <p>We can test and replace batteries as well and work on alternators .</p>
-            </div>
-        </div>
-        <div class="row r1"> 
-            <div class="col-lg-4">
-                <i class="work-icon fa-solid fa-stethoscope fa-5x"></i>
-              <h3 class="feature-title">Car Diagnostic Test</h3>
-              <p>We can hook-up to your car and identify any warnings.</p>
-            </div>
-            <div class="col-lg-4">
-                <i class="work-icon fa-regular fa-snowflake fa-5x"></i>
-              <h3 class="feature-title">A/C tune ups</h3>
-              <p>We can keep you cool in your car in the hot months </p>
-            </div>
-            <div class="col-lg-4">
-                <i class="work-icon fa-solid fa-tractor fa-5x"></i>
-              <h3 class="feature-title">Tractor/Diesel Engines</h3>
-              <p>We have experince working with diesel engines and tractors.</p>
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="jumper-cables-926308_640.jpg" alt="tractor image cap">
+              <div class="card-body">
+                <h5 class="card-title">Battery and Alternator</h5>
+                <p class="card-text">We can test and replace batteries as well and work on alternators.</p>
+              </div>
             </div>
         </div>
+        <div class="card-deck ">
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="pexels-mídia-4116193.jpg" alt="car diagnostic computer image cap">
+              <div class="card-body">
+                <h5 class="card-title">Car Diagnostic Test</h5>
+                <p class="card-text">We can hook-up to your car and identify any warning lights.</p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="vehicle-3872550_640.jpg" alt="Car A/C unit image cap">
+              <div class="card-body">
+                <h5 class="card-title">A/C Tune Ups</h5>
+                <p class="card-text">We can keep you cool in your car in the hot months.</p>
+              </div>
+            </div>
+            <div class="card col-lg-3 col-md-8 col-sm-8 col-10 workcard">
+              <img class="card-img-top" src="tractor-2077639_640.jpg" alt="tractor image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tractor/Diesel Engines</h5>
+                <p class="card-text">We have experince working with diesel engines and tractors.</p>
+              </div>
+            </div>
+        </div> 
     </section>
-
+    <Hr></Hr>
     <section id="location">
         <div class="row">
             <div class="col-lg-6 title-column">
-                <h2>Location</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1616.59050045808!2d-92.113389!3d35.869081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2205b7951b799%3A0xfc813cff945833e3!2sPaul&#39;s%20Automotive!5e0!3m2!1sen!2sus!4v1679167054420!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="location-title-text">
+                    <h2>Address</h2>
+                    <p class="address-p">313 Oak Ave. Mountian View, AR 72560</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1616.59050045808!2d-92.113389!3d35.869081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2205b7951b799%3A0xfc813cff945833e3!2sPaul&#39;s%20Automotive!5e0!3m2!1sen!2sus!4v1679167054420!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="addtitle col-lg-6 title-column">
-                <h2>Address</h2>
-                <p class="address-p">313 Oak Ave. Mountian View, AR 72560</p>
+            
+            <div class="col-lg-6 title-column vl ">
+                <h2 class="whytitle">Why choose us</h2>
+                <div class="card-group whygroup">
+                    <div class="card border-dark mb-3 col-lg-3" >
+                        <div class="card-header"><i class="fa-solid fa-book-open-reader fa-2x fa-border" style="--fa-border-radius: 100%; --fa-border-color:#000;"></i></div>
+                        <div class="card-body topbody text-dark">
+                            <h5 class="card-title">Knowledge and Experince</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3 col-lg-3" >
+                        <div class="card-header"><i class="fa-regular fa-handshake fa-border fa-2x" style="--fa-border-radius: 100%; --fa-border-color:#000;"></i></div>
+                        <div class="card-body topbody text-dark">
+                            <h5 class="card-title">Commitment and Satisfaction</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3 col-lg-3" >
+                        <div class="card-header"><i class="fa-solid fa-award fa-border fa-2x"style="--fa-border-radius: 100%; --fa-border-color:#000;"></i></div>
+                        <div class="card-body topbody text-dark">
+                            <h5 class="card-title">Quality Service Guranteed</h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
     </section>
@@ -114,7 +175,7 @@
             </div>
             <div class="col-lg-6 title-column">
                 <h2>Hours</h2>
-                <p>Monday-Friday 9am-4pm</p>
+                <p>Monday-Friday 8am-5pm</p>
             </div>
         </div>
     </section>
@@ -123,6 +184,7 @@
 
 <footer>
     <p>@ Copyright Pauls Automotive of Mtn View LLC 2023</p>
+    <p>Designed by <a href="https://bwcash.github.io/Improved-Personal-site-with-CSS/">Bryce Cash</a></p>
 </footer>
 
 
